@@ -32,6 +32,8 @@ a {
     color: var(--dark-grey)
 }
 
+/* header*/
+
 header {
     background-color: var(--pink);
 }
@@ -41,14 +43,23 @@ header {
     text-decoration: underline;
 }
 
-#nav-list > li {
-    display: inline;
-    padding:5px;
-}
-
 #nav-bar {
     text-align: right;
     margin-top: 10px;
     margin-right: 5px;
     padding-bottom: 10px
+}
+
+#nav-list > li {
+    display: inline;
+    padding:5px;
+}
+
+/* Hero Image*/
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero-image-birch-ply.jpg) no-repeat center center;
+    background-size: cover;
 }
