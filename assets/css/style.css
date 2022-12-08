@@ -100,19 +100,32 @@ header {
 }
 
 .what-why-item {
-    background-color: aqua;
+    background-color: var(--white);
     width: 66%;
     margin: 10px;
     flex-grow: 1;
+    text-align: center;
    
 }
 
 
 
 #what-why-img {
-    border: 2px solid black;
+    
     border-radius: 15px;
     height: 400px;
+}
+
+.why-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.what-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
 }
 
 /* 
@@ -148,4 +161,3 @@ header {
     padding: 20px;
  }
 
- 
