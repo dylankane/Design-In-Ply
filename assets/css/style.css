@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Raleway:wght@300&display=swap');
 
 *{
     margin: 0;
@@ -5,3 +6,23 @@
     border: none;
 }
 
+
+:root {
+    --white: #fafafa;
+    --pink: rgba(228, 137, 137, 0.9);
+    --dim-grey: rgba(109, 109, 100, 1);
+    --dark-grey: rgba(51, 51, 51, 1);
+}
+
+
+body {
+    font-family: "raleway", sans-serif;
+    font-weight: bold;
+    background-color: var(--white);
+    color: var(--dim-grey)
+}
+
+h1, h2, h3 {
+    font-family: "poiret one", sans-serif;
+    color: var(--dark-grey)
+}
