@@ -63,3 +63,51 @@ header {
     background: url(../images/hero-image-birch-ply.jpg) no-repeat center center;
     background-size: cover;
 }
+
+#cover-text {
+    text-align: center;
+    width: 300px;
+    height:100px;
+    padding: 10px;
+    vertical-align: middle;
+    background-color: var(--pink);
+    bottom: 40px;
+    right: 40px;
+    position: absolute;
+    border-radius: 15px;
+}
+
+/* what & why section*/
+
+#what-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#why-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.what-why-item {
+    background-color: aqua;
+    height: 400px;
+    width: 66%;
+    margin: 10px;
+    flex-grow: 1;
+   
+}
+
+
+
+#what-why-img {
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+
+#what-why-para {
+    text-align: center;
+}
