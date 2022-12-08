@@ -26,3 +26,29 @@ h1, h2, h3 {
     font-family: "poiret one", sans-serif;
     color: var(--dark-grey)
 }
+
+a {
+    text-decoration: none;
+    color: var(--dark-grey)
+}
+
+header {
+    background-color: var(--pink);
+}
+
+#logo {
+    padding: 10px;
+    text-decoration: underline;
+}
+
+#nav-list > li {
+    display: inline;
+    padding:5px;
+}
+
+#nav-bar {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 5px;
+    padding-bottom: 10px
+}
