@@ -162,5 +162,8 @@ header {
  }
 
  #about-paragraph {
-    
+        width: 75%;
+        padding-bottom: 100px;
+        margin: 25px auto;
+        text-align: center;
  }
