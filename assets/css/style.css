@@ -32,6 +32,10 @@ a {
     color: var(--dark-grey)
 }
 
+p {
+    text-align: center;
+}
+
 /* header*/
 
 header {
@@ -111,10 +115,37 @@ header {
     height: 400px;
 }
 
-
+/* 
 #what-why-para {
     text-align: center;
-}
+} */
 
 /* footer*/
 
+#footer {
+    background-color: var(--pink);
+    width: 100%;
+}
+
+#footer-contact {
+    margin-bottom: 20px;
+}
+#footer-contact > p {
+    padding: 10px
+}
+
+#socials > li {
+    display: inline;
+    font-size: 2em;
+    padding: 25px;
+}
+ #socials {
+    text-align: center;
+  
+ }
+
+ #copyright {
+    padding: 20px;
+ }
+
+ 
