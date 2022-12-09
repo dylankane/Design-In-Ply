@@ -263,3 +263,18 @@ iframe {
     margin-bottom: 30px;
     border: solid 2px var(--dark-grey);
 }
+
+/*confirmation page*/
+
+#confirmation-div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    margin: 10vh auto;
+}
+
+#confirmation-item {
+    height: 10vh;
+}
+
