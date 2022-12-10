@@ -54,7 +54,7 @@ p {
     text-align: center;
 }
 
-
+ /* header*/
 header {
     width: 100%;
     background-color: var(--pink);
@@ -111,28 +111,27 @@ header {
 
 /* what & why section*/
 
-#what-container {
+#main-section {
+    margin-bottom: 50px;
+}
+
+#what-container, #why-container {
     display: flex;
     flex-flow: column;
     align-items: center;
     margin-top: 50px;
 }
 
-#why-container {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+#what-container {
+    flex-flow: column-reverse;
 }
 
 .what-why-item {
     background-color: var(--white);
-    width: 75%;
-    margin: 10px;
+    width: auto;
+    margin: 10px 50px;
     flex-grow: 1;
     text-align: center;
-    /* height: 400px; */
 }
 
 .what-why-item > h2 {
@@ -142,10 +141,11 @@ header {
 
 
 .what-image, .why-img {
-    width: 100%;
-    height: 400px;
     border-radius: 15px;
-    margin-top: 40px;
+    /* width: 100%;
+    height: 400px;
+    
+    margin-top: 40px; */
 }
 
 #what-why-para > p {
@@ -153,7 +153,15 @@ header {
     
 }
 
+ @media screen and (min-width: 700px) 
+{
+  #what-container, #why-container {
+      flex-flow: row;
+  }
 
+}
+
+ 
 /* footer*/
 
 #footer {
@@ -347,3 +355,5 @@ iframe {
     padding-top: 10px;
   }
 
+
+  
