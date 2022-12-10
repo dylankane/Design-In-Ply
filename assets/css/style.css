@@ -71,7 +71,7 @@ header {
 #nav-bar {
     text-align: right;
     margin-top: 10px;
-    margin-right: 5px;
+    margin-right: 10px;
     padding-bottom: 10px
 }
 
@@ -85,7 +85,7 @@ header {
 #hero-image {
     height: 500px;
     width: 100%;
-    background: url(../images/hero-image-plywood.jpg) no-repeat center center;
+    background: url(../images/chair.webp) no-repeat center center;
     background-size: cover;
 }
 
@@ -99,13 +99,13 @@ header {
     font-size: 1.2em;
     width: 260px;
     height:90px;
-    border-radius: 15px;
+    border-radius: 30px;
     padding: 10px;
     bottom: 70px;
     right: 20px;
     vertical-align: middle;
     background-color: var(--dim-grey-trans);
-    color: var(--pink-solid);
+    color: var(--white);
     position: absolute;
 }
 
@@ -163,20 +163,7 @@ header {
     
 }
 
- @media screen and (min-width: 700px) 
-{
-  #what-container, #why-container {
-      flex-flow: row;
-  }
-
-  /* #hero-image {
-    background: url(../images/product-collection-large.jpg) no-repeat center center;
-    background-size: cover;
-    
-} */
-
-}
-
+ 
  
 /* footer*/
 
@@ -222,9 +209,9 @@ header {
 
  #flexbox-container {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     align-items: center;
-    
+    flex-wrap: wrap;
     margin-bottom: 100px;
     
 }
@@ -372,4 +359,50 @@ iframe {
   }
 
 
-  
+  @media screen and (min-width: 700px) 
+{
+
+    #logo{
+        margin-left: 25px;
+    }
+
+    #nav-list > li {
+        padding: 25px;
+    }
+
+    #nav-bar {
+        margin-right: 25px;
+    }
+
+  #what-container, #why-container {
+      flex-flow: row;
+  }
+
+
+#main-section {
+    margin: 50px;
+}
+
+#cover-text {
+    width: 260px;
+    height: 90px;
+    border-radius: 30px;
+    bottom: 70px;
+    right: 200px;
+}
+
+  #hero-image {
+    background: url(../images/hero-sideboard.jpg) no-repeat center center;
+    background-size: cover;
+    
+}
+
+#flexbox-container {
+    flex-direction: row;
+    justify-content: center;
+}
+
+form {
+    width: 40%;
+}
+}
