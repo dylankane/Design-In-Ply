@@ -376,6 +376,7 @@ iframe {
 
   #what-container, #why-container {
       flex-flow: row;
+      margin: 75px;
   }
 
 
@@ -395,6 +396,10 @@ iframe {
     background: url(../images/hero-sideboard.jpg) no-repeat center center;
     background-size: cover;
     
+}
+
+#intro {
+    margin: 75px;
 }
 
 #flexbox-container {
