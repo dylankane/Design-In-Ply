@@ -99,19 +99,17 @@ The head of this page has code which redirects the user back to the home page wi
 
 - If the company decided to start pre making some limited small pieces of furniture or plywood accesories, the webite could incorporate an e-commerce section.
 
-
+***
 
 ## Testing
 
-The Website has been tested, across a number of browsers, to make sure it is responding in the same way in each.
-Included was Chrome, Firefox, Internet Explorer, Safari and Edge
-The site is responding well and as predicted across all. Originally built with Chrome, the most popular.
-
+- The Website has been tested, across a number of browsers, to make sure it is responding in the same way in each.
+Included was Chrome, Firefox, Internet Explorer and Safari.The site is responding well and as predicted across all.
 It has also be tested and viewed at mutiple screen sizes. It was designed and built for the mobile size initially, and adjusted up to larger screen sizes. As the mobile view tends to be where most of the browsing of this sort is done today.
 
 ### Validator Testing
 
-The finished code has been tested with online validators also. 
+- The finished code has been tested with online validators also. 
 The Html code of each page was passed through the W3C Html Validator, returning no errors or warnings.
 The CSS code has also been passed through a W3C CSS code validator, returning no errors or warnings. 
 Below are the links to the results for each test.
@@ -136,16 +134,19 @@ https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdylankane.github
 
 https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Fconfirmation.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
-### Unfixed Bugs
+***
 
-The first bug that I will flag is the hero imgage cropping a bit too much of the image as sreen sizes increase. This will require more editing of the photo and possibly more styling with media queries for different screen sizes. It does take away from the overall aesthetics of the site, in particular on large desktop screens, but I feel not affecting its purpose, or user interface.
+## Unfixed Bugs
 
-Another issue with the site that needs attention is the main section of the landing / home page where there is 3 small paragraphs and two images giving a gereal outline of the company. The Layout here could also be improved throughout changing screen sizes. As this was designed with the mobile device as it primary target, it works fine at smaller sizes. But as the screen gets bigger, the ratio of the text and images doesnt quite look right. I used flex box properties to control this section to give me as much responsiveness as possible, but it does need more work. Not affecting the users experience of the site or its overall style and theme. 
+- The first bug that I will flag is the hero imgage cropping a bit too much of the image as sreen sizes increase. This will require more editing of the photo and possibly more styling with media queries for different screen sizes. It does take away from the overall aesthetics of the site, in particular on large desktop screens, but I feel not affecting its purpose, or user interface.
 
+- Another issue with the site that needs attention is the main section of the landing / home page where there is 3 small paragraphs and two images giving a gereal outline of the company. The Layout here could also be improved throughout changing screen sizes. As this was designed with the mobile device as it primary target, it works fine at smaller sizes. But as the screen gets bigger, the ratio of the text and images doesnt quite look right. I used flex box properties to control this section to give me as much responsiveness as possible, but it does need more work. Not affecting the users experience of the site or its overall style and theme. 
+
+***
 
 ## Deployment
 
-The Design In Ply site has been published through Git Hub pages.
+- The Design In Ply site has been published through Git Hub pages.
 Below is the main link to the site, followed by a link to each page.
 
 https://dylankane.github.io/Design-In-Ply/
@@ -159,8 +160,9 @@ https://dylankane.github.io/Design-In-Ply/about.html
 https://dylankane.github.io/Design-In-Ply/about.html#contact-link
 
 
-To publish this I
+- I built this project as a repository in Github using a Gitpod workspace. I deployed it through Guthub, by accessing the github pages section of the repository(on the left hand side), where you have the option to deploy/publish it by changing the branch from "none" to "main branch" (in a drop down menu). Once saved the project is deployed within a few minutes, and issued with it own url. 
 
+***
 
 ## Credits
 
@@ -169,7 +171,7 @@ Here I will list sources that I used for to build the site, broken into three ca
 __Code__
 
 
-Flexbox was a display property I was unfamiliar with. Thanks to these sources I was able to implement it in this project in a few places. Primarily the gallery of images, was built with the code in the "logrocket article" stripped back a bit and adjusted to meet my needs, leaving out the hover attribute to make it more mobile friendly.The other source was a video on youtube by Web Dev Simplified, to learn the basics of flexbox. This helped me with the knowledge to use this property in other areas of the project.
+- Flexbox was a display property I was unfamiliar with, at the  beginning of this project. Thanks to the sources below, I was able to implement it in this project in a few places. Primarily the gallery of images, was built with the code in the "logrocket article" stripped back a bit and adjusted to meet my needs, leaving out the hover attribute to make it more mobile friendly. The other source was a video on youtube by Web Dev Simplified, to learn the basics of flexbox. This helped me with the knowledge to use this property in other areas of the project.
 
 https://blog.logrocket.com/responsive-image-gallery-css-flexbox/
 
@@ -177,29 +179,61 @@ https://www.youtube.com/watch?v=fYq5PXgSsbE&t=322s
 
 ***
 
-When fixing the header to the top of the viewport, I found an article helping me to position it where I wanted it. After coming across some issues this helped me correct it.
+- When fixing the header to the top of the viewport, I found an article helping me to position it where I wanted it. After coming across some issues this helped me correct it.
 
 https://stackoverflow.com/questions/18747466/div-disappears-on-positioning-it-fixed
 
- ***
 
-Below is a link to a page on W3Schools with information and code I used to help style elements in the contact form. With this example of code I could adapt it to style my contact form the way I wanted. Using "box-sizing" with the input[type = ].
+
+- Below is a link to a page on W3Schools with information and code I used to help style elements in the contact form. With this example of code I could adapt it to style my contact form the way I wanted. Using "box-sizing" with the input[type = ].
 
 https://www.w3schools.com/css/css_form.asp
 
+
+
+- While designing the site, I decided I would like the "about" and "contact" sections on the one page, but linked to, with seperate navigation links in the header. Here is a source that helped me implement that. A previously question asked in a forum "stack overflow" with help from a few members.
+
+https://stackoverflow.com/questions/17687328/getting-a-link-to-go-to-a-specific-section-on-another-page
+
+
+
+- 10s redirect
+Tim
+
 ***
 
-10s re direct
-
-contact page / section
-
-
-
  __Content__
-made in ply
-lozi
-made ply hand
-### Media
 
-images
+- There are two websites of similar companies, which gave me ispiration for the design, and helped with ideas for content, and how to structure the content.  
+
+https://www.lozidesigns.com/
+
+https://www.madeinply.co.uk/
+
+***
+
+__Media__
+
+
+- Below is a list of urls where I have found all the images on this site
+
+https://www.madeinply.co.uk/ (triple-kitchen-cabinet.webp)
+
+https://www.pureviewcarpentry.co.uk/plywood-wardrobe-with-pegboard (bedroom-plywood-units.jpg)
+
+https://www.grundig.com/ktchnmag/blog/how-sustainable-plywood-is-changing-the-way-we-design-kitchens/ (plywood-kitchen.jpg)
+
+https://www.lozidesigns.com/shop/p/u-desk (bent-plywood-desk.jpg)
+
+https://www.lozidesigns.com/shop/p/shelving-system (product-collection.jpg)
+
+https://www.justdial.com/jdmart/Kolkata/Polo-Plywood-Office-Furniture/pid-2100110989/033PXX33-XX33-160807222303-F8X1 (office-furniture-plywood.png)
+
+https://mapayah.com/products/seat (chair.webp)
+
+
+
+
+
+
 
