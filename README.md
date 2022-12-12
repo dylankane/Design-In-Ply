@@ -33,6 +33,8 @@ The navigation bar, is located to the right of the header section. Containing 4 
 
 The header section of the site is a banner accross the top, housinng the logo and the nav bar links. It is coloured in a dusty pink/terracota colour, with a slight transparency. It is fixed to the top of the viewport window, meaning it moves down with the user as they scroll through the site. Giving the user access to the other links at any point on the page, removing the need to scroll back to the top. This is where the slight transperency comes in. It doesnt completly obstruct the view of content underneath, and stops the viewport looking too small under the banner. I felt it also helped to bring the colour down through the page, keeping the theme consistent, and meaning the rest of the page can be left white and minimalist.
 
+<img src="assets/readme-images/header-image.png" alt="Image of site's header section">
+
 
 ### Hero Image
 
@@ -40,6 +42,8 @@ Below the header banner there is a main / hero image. This is a place to showcas
 It is resopnive and takes up similar amount of real estate across all screen sizes. The image changes between to photos for larger and smaller screens. At larger sizes it is a beautiful photo of a plywood side-board in a white room. At smaller sizes below 700px wide screens, it is a stunning photo of a plywood chair again on a white / off white background, putting the furniture pieces as the main focus of the hero image. When scrolling down the image stays in the flow of the page while the header sticks to the top floating over the image. This Image is the same across all pages bar the confirmation page, only seen after the user has completed and submitted the contact form.
 Laid over the hero image is some text, placed in a grey transparent box, with white text, the same off white as the background of the main body of each page. A simple tagline for the company is written here "Bespoke Plywood Furniture, Designers & Makers"
 Placed in the same area of the hero image on all pages and screen sizes. The shape of the box has large rounded corners, which features on all sloid elements throughout the site, like images and form boxes. Purpose is to immediately give context to the website and what the company do.
+
+<img src="assets/readme-images/hero-image.png" alt="Image of site's hero image" style="max-height: 300px;">
 
 ### General Company Description
 
@@ -53,9 +57,13 @@ This keeps the site coherent and flowing in all screen sizes. The text content i
 
 The footer section aesthtcally matches the header, it is styled with the same colours for text and background as header. Again giving a nice flow to the site, making it clear the user is at the end of the page, with that background colour only been used at the top and bottom of page, framing it. Within the footer there is basic contact info. First is an email address, which is a link to bring the user to an email editor on their browser to send an email to the address. Below this is the address of the company and below that their phone number. Then underneath that is 3 icons each one a link to the companies social maedia site, Facebook , Intagram, and Youtube. Again this is kept simple with plenty of space between content, and all the relavent info needed for the user to get in touch with the company, easy to find. Always in the same place and same layout across all pages and screen sizes. The last line on the footer is just a basic copyright statement.
 
+<img src="assets/readme-images/footer-image.png" alt="Image of site's footer section" style="max-width: 300px;">
+
 ### Previous Projects Gallery
 The "projects" page consists of images and brief descriptions of previous work the company have completed. The page layout matches the home page with header, footer and hero images.
 The gallery is made with flex box properties, making it fully responsive to different screen sizes. Changing from one image on top of each other vertically, to two side by side all the way up to 3 in a row, horizontally on the largest screen sizes. The image description in directly under each image. All the images like everywhere else on the site are styled with rounded corners, continuing the style through out the pages 
+
+<img src="assets/readme-images/gallery-example-image.png" alt="Image of site's gallery page" style="max-height: 300px;">
 
 
 ### About Section
@@ -70,6 +78,8 @@ Below this paragraph, are two circular photos, the only two styled differently, 
 On the about page there is the contact section. linked to by its own link in the header of each page but technically the second part of the about page, hopefully bring user to this section more frequently, than been on a seperate page.
 As the main contact info is on the footer of each page anyway, this section is based around a contact form, with a name email and message input field. Form is styled in keeping with sites them, with rounded corners. The textarea message input has place holder text, outlining what to add here.
 Below this is an iframe element, showing a live location of the companys studio, on Google Maps. Again styled like the other images on the website.
+
+<img src="assets/readme-images/contact-form-image.png" alt="Image of site's contact form" style="max-height: 300px;">
 
 
 ### Confirmation Page
@@ -89,10 +99,32 @@ The site's hero image could possibly also benifit with this being an auto slide 
 
 If the company decided to start pre making some limited small pieces of furniture or plywood accesories, the webite could incorporate an e-commerce section.
 
-## Testing
 
+
+## Testing
+browser testing, screen size testing
 
 ### Validator Testing
+w3c html and css
+#### Html
+
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Findex.html
+
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Fgallery.html
+
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Fabout.html
+
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Fconfirmation.html
+
+#### CSS
+
+https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+
+https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+
+https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+
+https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Fconfirmation.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
 ## Unfixed Bugs
 styling of homepage content
@@ -101,6 +133,10 @@ styling of homepage content
 
 https://dylankane.github.io/Design-In-Ply/
 
+https://dylankane.github.io/Design-In-Ply/index.html
+https://dylankane.github.io/Design-In-Ply/gallery.html
+https://dylankane.github.io/Design-In-Ply/about.html
+https://dylankane.github.io/Design-In-Ply/about.html#contact-link
 
 ## Credits
 
@@ -110,11 +146,13 @@ Flex box
 
 contact page / section
 
+box-sizing box border
+
 ### Content
 made in ply
 lozi
 made ply hand
 ### Media
 
-
+images
 
