@@ -323,7 +323,7 @@ iframe {
     margin: 15.25vh auto;
 }
 
-#confirmation-item {
+.confirmation-item {
     height: 10vh;
     padding: 0 15px;
 }
