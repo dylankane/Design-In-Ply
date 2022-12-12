@@ -24,6 +24,7 @@ body {
     background-color: var(--white);
     color: var(--dim-grey);
     letter-spacing: 1px;
+    line-height: 1.5em;
 }
 
 h1, h2 {
@@ -64,7 +65,7 @@ header {
 }
 
 #logo {
-    padding: 10px;
+    padding: 15px;
     text-decoration: underline;
 }
 
@@ -97,11 +98,11 @@ header {
 #cover-text {
     text-align: center;
     font-size: 1.2em;
-    width: 260px;
-    height:90px;
+    width: 250px;
+    height:110px;
     border-radius: 30px;
     padding: 10px;
-    bottom: 70px;
+    bottom: 25px;
     right: 20px;
     vertical-align: middle;
     background-color: var(--dim-grey-trans);
@@ -109,16 +110,21 @@ header {
     position: absolute;
 }
 
+#cover-text > h3 {
+    padding: 10px;
+}
+
 /* what & why section*/
 
 #intro {
     text-align: center;
     margin: 25px;
+    
 }
 
 #intro > h2 {
     text-decoration: underline;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
 }
 
 #main-section {
@@ -139,7 +145,7 @@ header {
 .what-why-item {
     background-color: var(--white);
     width: auto;
-    margin: 10px 50px;
+    margin: 25px 50px;
     flex-grow: 1;
     text-align: center;
 }
@@ -152,7 +158,6 @@ header {
 
 .what-image, .why-img {
     border-radius: 15px;
-    /* width: 100%; */
     height: 400px;
     
     margin-top: 40px;
@@ -207,7 +212,11 @@ header {
     padding-bottom: 20px;
  }
 
- #flexbox-container {
+ #about-paragraph > p {
+    padding-bottom: 20px;
+ }
+
+ #circle-img-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -216,7 +225,7 @@ header {
     
 }
 
-.flexbox-item {
+.circle-img-item {
     height: 300px;
     width: 300px;
     background-color: aqua;
@@ -299,7 +308,7 @@ iframe {
     width: 350px;
     flex-grow: 1;
     border-radius: 15px; 
-    margin: 30px 10px;
+    margin: 30px 20px;
     border: solid 2px var(--dark-grey);
 }
 
@@ -322,8 +331,9 @@ iframe {
 /* gallery*/
 
 .title-projects {
-    margin-top: 120px;
+    margin: 100px;
     text-align: center;
+    text-decoration: underline;
 }
 
 .image-gallery {
@@ -335,7 +345,6 @@ iframe {
   
   .image-gallery > li {
     flex-basis: 350px; 
-    /* width: 350px; */
   }
   
   .image-gallery li img {
@@ -350,7 +359,7 @@ iframe {
     position: relative;
     list-style: none;
     margin: 30px;
-    /* cursor: pointer; */
+   
   }
 
   .overlay {
@@ -374,10 +383,6 @@ iframe {
         margin-right: 25px;
     }
 
-  #what-container, #why-container {
-      flex-flow: row;
-      margin: 75px;
-  }
 
 
 #main-section {
@@ -386,7 +391,7 @@ iframe {
 
 #cover-text {
     width: 260px;
-    height: 90px;
+    height: 110px;
     border-radius: 30px;
     bottom: 70px;
     right: 200px;
@@ -402,7 +407,7 @@ iframe {
     margin: 75px;
 }
 
-#flexbox-container {
+#circle-img-container {
     flex-direction: row;
     justify-content: center;
 }
@@ -410,4 +415,23 @@ iframe {
 form {
     width: 40%;
 }
+}
+
+
+
+@media screen and (min-width: 850px) 
+{
+    #what-container, #why-container {
+        flex-flow: row;
+        
+    }
+}
+
+
+@media screen and (min-width: 1100px) 
+{
+    #what-container, #why-container {
+        flex-flow: row;
+        margin: 75px;
+    }
 }

@@ -110,6 +110,7 @@ contact page / section
 ### Content
 made in ply
 lozi
+made ply hand
 ### Media
 
 
