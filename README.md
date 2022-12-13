@@ -223,7 +223,7 @@ __Media__
 
 - Below is a list of urls where I have found all the images on this site
 
-***
+
 
 - Hero Images
 
@@ -231,7 +231,7 @@ https://www.elosilo.com.au/product/memi-tv-cabinet/ (hero-sideboard.jpg)
 
 https://mapayah.com/products/seat (chair.webp)
 
-***
+
 
 - Home page
 
@@ -239,7 +239,7 @@ https://www.pureviewcarpentry.co.uk/plywood-wardrobe-with-pegboard (bedroom-plyw
 
 http://www.nogoatforjack.com.au/work-office-tables (office-furniture-plywood.png)
 
-***
+
 
 - Gallery
 
@@ -259,7 +259,7 @@ https://archello.com/product/wall-units-frisk (birch-ply-shelving.jpg)
 
 https://www.madeplyhand.co.uk/bespoke-plywood-furniture/ (music-center.jpg)
 
-***
+
 
 - About Page
 
