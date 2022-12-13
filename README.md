@@ -93,7 +93,7 @@ The head of this page has code which redirects the user back to the home page wi
 
 - In the future there are a few features, that this site could benefit from, to increase its scope.
 
-- In the gallery page, it would be a nice feature to be able to interact with each photo, which would open up another gallery / slideshow with more photos of that specific project, that could manually flicked through or left on a auto slide. Not in a sepeate page but just floating over the gallery page.
+- In the gallery page, it would be a nice feature to be able to interact with each photo, which would open up another gallery / slideshow with more photos of that specific project, that could be manually flicked through or left on a auto slide. Not in a sepeate page but just floating over the gallery page.
 
 - The site's hero image could possibly also benifit with this being an auto slide show of images showcasing some of their pieces with different cover text over each one stating other taglines, also allowing the user to push through each photo manually.
 
@@ -104,7 +104,7 @@ The head of this page has code which redirects the user back to the home page wi
 ## Testing
 
 - The Website has been tested, across a number of browsers, to make sure it is responding in the same way in each.
-Included was Chrome, Firefox, Internet Explorer and Safari.The site is responding well and as predicted across all.
+Included was Chrome, Firefox, and Safari.The site is responding well and as predicted across all.
 It has also be tested and viewed at mutiple screen sizes. It was designed and built for the mobile size initially, and adjusted up to larger screen sizes. As the mobile view tends to be where most of the browsing of this sort is done today.
 
 ### Validator Testing
@@ -138,9 +138,9 @@ https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdylankane.github
 
 ## Unfixed Bugs
 
-- The first bug that I will flag is the hero imgage cropping a bit too much of the image as sreen sizes increase. This will require more editing of the photo and possibly more styling with media queries for different screen sizes. It does take away from the overall aesthetics of the site, in particular on large desktop screens, but I feel not affecting its purpose, or user interface.
+- The first bug that I will flag is the hero imgage cropping a bit too much of the image as sreen sizes increase. This will require more editing of the photo and possibly more styling with media queries for different screen sizes. It does take away from the overall aesthetics of the site, in particular on large desktop screens, but I feel not affecting its purpose, or user interface / experience.
 
-- Another issue with the site that needs attention is the main section of the landing / home page where there is 3 small paragraphs and two images giving a gereal outline of the company. The Layout here could also be improved throughout changing screen sizes. As this was designed with the mobile device as it primary target, it works fine at smaller sizes. But as the screen gets bigger, the ratio of the text and images doesnt quite look right. I used flex box properties to control this section to give me as much responsiveness as possible, but it does need more work. Not affecting the users experience of the site or its overall style and theme. 
+- Another issue with the site that needs attention is the main section of the landing / home page where there is 3 small paragraphs and two images giving a general outline of the company. The Layout here could also be improved, throughout changing screen sizes. As this was designed with the mobile device as it primary target, it works fine at smaller sizes. But as the screen gets bigger, the ratio of the text and images doesnt quite look right. I used flex box properties to control this section to give me as much responsiveness as possible, but it does need more work. Not affecting the users experience of the site or its overall style and theme. 
 
 ***
 
@@ -160,7 +160,7 @@ https://dylankane.github.io/Design-In-Ply/about.html
 https://dylankane.github.io/Design-In-Ply/about.html#contact-link
 
 
-- I built this project as a repository in Github using a Gitpod workspace. I deployed it through Guthub, by accessing the github pages section of the repository(on the left hand side), where you have the option to deploy/publish it by changing the branch from "none" to "main branch" (in a drop down menu). Once saved the project is deployed within a few minutes, and issued with it own url. 
+- I built this project as a repository in Github using a Gitpod workspace. I deployed it through Guthub, by accessing the github pages section of the repository(on the left hand side), where you have the option to deploy/publish it by changing the branch from "none" to "main branch" (in a drop down menu). Once saved the project is deployed within a few minutes, and issued with its own url. 
 
 ***
 
@@ -191,14 +191,18 @@ https://www.w3schools.com/css/css_form.asp
 
 
 
-- While designing the site, I decided I would like the "about" and "contact" sections on the one page, but linked to, with seperate navigation links in the header. Here is a source that helped me implement that. A previously question asked in a forum "stack overflow" with help from a few members.
+- While designing the site, I decided I would like the "about" and "contact" sections on the one page, but linked to, with seperate navigation links in the header. Here is a source that helped me implement that. A previous question asked in a forum "stack overflow" with help from a few members.
 
 https://stackoverflow.com/questions/17687328/getting-a-link-to-go-to-a-specific-section-on-another-page
 
+- I used root variables in the CSS for colours across the project, allowing me to change and perfect my colour choices, without having to go to each individual elementt to change it. I used the information in the link below from w3 schools to help me implement these.
 
+https://www.w3schools.com/css/css3_variables.asp
 
 - 10s redirect
 Tim
+
+mailto
 
 ***
 
@@ -210,6 +214,8 @@ https://www.lozidesigns.com/
 
 https://www.madeinply.co.uk/
 
+https://www.madeplyhand.co.uk/
+
 ***
 
 __Media__
@@ -217,23 +223,46 @@ __Media__
 
 - Below is a list of urls where I have found all the images on this site
 
-https://www.madeinply.co.uk/ (triple-kitchen-cabinet.webp)
+***
 
-https://www.pureviewcarpentry.co.uk/plywood-wardrobe-with-pegboard (bedroom-plywood-units.jpg)
+- Hero Images
 
-https://www.grundig.com/ktchnmag/blog/how-sustainable-plywood-is-changing-the-way-we-design-kitchens/ (plywood-kitchen.jpg)
-
-https://www.lozidesigns.com/shop/p/u-desk (bent-plywood-desk.jpg)
-
-https://www.lozidesigns.com/shop/p/shelving-system (product-collection.jpg)
-
-https://www.justdial.com/jdmart/Kolkata/Polo-Plywood-Office-Furniture/pid-2100110989/033PXX33-XX33-160807222303-F8X1 (office-furniture-plywood.png)
+https://www.elosilo.com.au/product/memi-tv-cabinet/ (hero-sideboard.jpg)
 
 https://mapayah.com/products/seat (chair.webp)
 
+***
 
+- Home page
 
+https://www.pureviewcarpentry.co.uk/plywood-wardrobe-with-pegboard (bedroom-plywood-units.jpg)
 
+http://www.nogoatforjack.com.au/work-office-tables (office-furniture-plywood.png)
 
+***
 
+- Gallery
 
+https://www.grundig.com/ktchnmag/blog/how-sustainable-plywood-is-changing-the-way-we-design-kitchens/ (plywood-kitchen.jpg)
+
+https://www.lozidesigns.com/commercial/the-point-theatre (plywood-bench-stool.jpg)
+
+https://www.lozidesigns.com/shop/p/shelving-system (shelving-unit.jpg)
+
+https://jsdeco.co.uk/plywood-service-wall/ (office-suite-commercial.webp)
+
+https://www.madeinply.co.uk/ (triple-kitchen-cabinet.webp)
+
+https://unsplash.com/s/photos/plywood-furniture (birch-ply-bunk-bed.jpg)
+
+https://archello.com/product/wall-units-frisk (birch-ply-shelving.jpg)
+
+https://www.madeplyhand.co.uk/bespoke-plywood-furniture/ (music-center.jpg)
+
+***
+
+- About Page
+
+https://www.dreamstime.com/photos-images/artisan-furniture-designer.html (furniture-workshop-image.jpg)
+
+https://www.madeplyhand.co.uk/ (plywood-joinery-hand.webp)

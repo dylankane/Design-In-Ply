@@ -28,12 +28,12 @@ body {
 
 h1{
     font-family: "poiret one", sans-serif;
-    color: var(--dim-grey)
+    color: var(--dim-grey);
 }
 
 h2 {
     font-family: "poiret one", sans-serif;
-    color: var(--dark-green)
+    color: var(--dark-green);
 }
 
 h3 {
