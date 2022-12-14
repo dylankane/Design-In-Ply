@@ -7,7 +7,7 @@ of their work, and get a feeling for the type of company they are.It will also a
 links, where they can also see more information and examples of their work. It targets people interested in one off high quality pieces of furniture. Not meant to be a place to buy off the shelf products, but to encourage people to contact them directly to commision a piece. The Idea of the site is minimalist, and clean, giving enough information to intrigue interest.
 But without too much clutter, to confuse or limit what customers think the possibilities might be. Hoping the simle design will trigger the same feelings as the clean modern design of plywood funiture.
 
-<img src="assets/readme-images/responsive-mock-up.png" alt="Image of a responsive mock up of the site across multiple devices">
+<img src="documentation/responsive-mock-up.png" alt="Image of a responsive mock up of the site across multiple devices">
 
 ***
 
@@ -31,7 +31,7 @@ __Header__
 
 - The header section of the site is a banner accross the top, housinng the logo and the nav bar links. It is coloured in a dusty pink/terracota colour, with a slight transparency. It is fixed to the top of the viewport window, meaning it moves down with the user as they scroll through the site. Giving the user access to the other links at any point on the page, removing the need to scroll back to the top. This is where the slight transperency comes in. It doesnt completly obstruct the view of content underneath, and stops the viewport looking too small under the banner. I felt it also helped to bring the colour down through the page, keeping the theme consistent, and meaning the rest of the page can be left white and minimalist.
 
-<img src="assets/readme-images/header-image.png" alt="Image of site's header section">
+<img src="documentation/header-image.png" alt="Image of site's header section">
 
 
 __Hero Image__
@@ -41,7 +41,7 @@ It is resopnive and takes up similar amount of real estate across all screen siz
 Laid over the hero image is some text, placed in a grey transparent box, with white text, the same off white as the background of the main body of each page. A simple tagline for the company is written here "Bespoke Plywood Furniture, Designers & Makers"
 Placed in the same area of the hero image on all pages and screen sizes. The shape of the box has large rounded corners, which features on all sloid elements throughout the site, like images and form boxes. Purpose is to immediately give context to the website and what the company do.
 
-<img src="assets/readme-images/hero-image.png" alt="Image of site's hero image" style="max-height: 300px;">
+<img src="documentation/hero-image.png" alt="Image of site's hero image" style="max-height: 300px;">
 
 __General Company Description__
 
@@ -55,14 +55,14 @@ __Footer__
 
 - The footer section aesthtcally matches the header, it is styled with the same colours for text and background as header. Again giving a nice flow to the site, making it clear the user is at the end of the page, with that background colour only been used at the top and bottom of page, framing it. Within the footer there is basic contact info. First is an email address, which is a link to bring the user to an email editor on their browser to send an email to the address. Below this is the address of the company and below that their phone number. Then underneath that is 3 icons each one a link to the companies social maedia site, Facebook , Intagram, and Youtube. Again this is kept simple with plenty of space between content, and all the relavent info needed for the user to get in touch with the company, easy to find. Always in the same place and same layout across all pages and screen sizes. The last line on the footer is just a basic copyright statement.
 
-<img src="assets/readme-images/footer-image.png" alt="Image of site's footer section" style="max-width: 300px;">
+<img src="documentation/footer-image.png" alt="Image of site's footer section" style="max-width: 300px;">
 
 __Previous Projects Gallery__
 
 - The "projects" page consists of images and brief descriptions of previous work the company have completed. The page layout matches the home page with header, footer and hero images.
 The gallery is made with flex box properties, making it fully responsive to different screen sizes. Changing from one image on top of each other vertically, to two side by side all the way up to 3 in a row, horizontally on the largest screen sizes. The image description in directly under each image. All the images like everywhere else on the site are styled with rounded corners, continuing the style through out the pages 
 
-<img src="assets/readme-images/gallery-example-image.png" alt="Image of site's gallery page" style="max-height: 300px;">
+<img src="documentation/gallery-example-image.png" alt="Image of site's gallery page" style="max-height: 300px;">
 
 
 __About Section__
@@ -78,7 +78,7 @@ __Contact Section__
 As the main contact info is on the footer of each page anyway, this section is based around a contact form, with a name email and message input field. Form is styled in keeping with sites them, with rounded corners. The textarea message input has place holder text, outlining what to add here.
 Below this is an iframe element, showing a live location of the companys studio, on Google Maps. Again styled like the other images on the website.
 
-<img src="assets/readme-images/contact-form-image.png" alt="Image of site's contact form" style="max-height: 300px;">
+<img src="documentation/contact-form-image.png" alt="Image of site's contact form" style="max-height: 300px;">
 
 
 __Confirmation Page__
