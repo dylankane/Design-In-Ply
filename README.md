@@ -3,11 +3,39 @@
 
 Design In Ply is a website for a company based in Co. Dublin. They design and make bespoke plywood furniture
 for the domestic and commercial sector. This website is to help possible customers find their business, see examples 
-of their work, and get a feeling for the type of company they are.It will also allow peope to see their social media
-links, where they can also see more information and examples of their work. It targets people interested in one off high quality pieces of furniture. Not meant to be a place to buy off the shelf products, but to encourage people to contact them directly to commision a piece. The Idea of the site is minimalist, and clean, giving enough information to intrigue interest.
-But without too much clutter, to confuse or limit what customers think the possibilities might be. Hoping the simle design will trigger the same feelings as the clean modern design of plywood funiture.
+of their work, and get a feeling for the ethos of the company.It will also allow people to see their social media
+links, where they can see more information and examples of their work.
+
+ It targets people interested in one off high quality pieces of furniture. Not meant to be a place to buy off the shelf products, but to encourage people to contact them directly to commision a piece. The Idea of the site is minimalist, and clean, giving enough information to intrigue interest.But without too much clutter, to confuse or limit what customers think the possibilities might be. Hoping the simple design will trigger the same feelings as the clean modern design of plywood funiture.
 
 ![mockup image](documentation/responsive-mock-up.png) 
+
+***
+## UX
+
+- The
+
+__Colour Scheme__
+    
+```css
+ :root {
+  --white: #f5f5f5;
+  --pink: rgba(189, 128, 118, 0.8);
+  --pink-solid: rgba(189, 128, 118, 1);
+  --dim-grey: rgba(109, 109, 100, 1);
+  --dark-green: rgb(66, 117, 99);
+  --dim-grey-trans: rgba(109, 109, 100, 0.8);
+}
+```
+
+
+
+__Typography__
+
+google fonts: raleway and poiret
+ Font compasison website
+
+font awsome : icons for social media
 
 ***
 
@@ -94,6 +122,10 @@ This page is very simple only keeping the header and footer off the other pages,
 The head of this page has code which redirects the user back to the home page within 10 seconds. This is stated on the page, and prevents the user having to interact with the back button while visiting the website.
 
 ![confirmation page image](documentation/confirmaton-page.png)
+
+__Hover__
+
+__Favicon__
 
 ***
 
