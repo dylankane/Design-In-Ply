@@ -41,9 +41,18 @@ __CSS__
 
 - The site has also been tested through the lighthouse text in the chrome dev tools. Below is a screenshot of the results from each page.
 
+
+- Lighthouse test of index.html
+
 ![lighthouse test on index.html image](documentation/lighthouse-index.html.png)
 
+
+- lighthouse test of galler.html
+
 ![lighthouse test on gallery.html image](documentation/lighthouse-gallery.html.png)
+
+
+- lighthouse test of about.html
 
 ![lighthouse test on about.html image](documentation/lighthouse-about.html.png)
 
@@ -107,11 +116,24 @@ __CSS__
 ### Large monitor
 
 
+- Landing page on large monnitor
 
+![landing page on large monitor](documentation/landing-page-monitor.png)
+
+
+- Gallery on large monitor
+
+![gallery page on large monitor](documentation/gallery-page-monitor.png)
+
+
+- Contact on large monitor
+
+![contact on large monitor](documentation/contact-monitor.png)
 
 
 
 ***
+
 
 ## Unfixed Bugs
 
