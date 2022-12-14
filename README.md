@@ -111,44 +111,8 @@ The head of this page has code which redirects the user back to the home page wi
 
 ## Testing
 
-- The Website has been tested, across a number of browsers, to make sure it is responding in the same way in each.
-Included was Chrome, Firefox, and Safari.The site is responding well and as predicted across all.
-It has also be tested and viewed at mutiple screen sizes. It was designed and built for the mobile size initially, and adjusted up to larger screen sizes. As the mobile view tends to be where most of the browsing of this sort is done today.
 
-### Validator Testing
-
-- The finished code has been tested with online validators also. 
-The Html code of each page was passed through the W3C Html Validator, returning no errors or warnings.
-The CSS code has also been passed through a W3C CSS code validator, returning no errors or warnings. 
-Below are the links to the results for each test.
-
-__Html__
-
-https://validator.w3.org/nu/?doc=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Findex.html
-
-https://validator.w3.org/nu/?doc=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Fgallery.html
-
-https://validator.w3.org/nu/?doc=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Fabout.html
-
-https://validator.w3.org/nu/?doc=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Fconfirmation.html
-
-__CSS__
-
-https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
-
-https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
-
-https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
-
-https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Fconfirmation.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
-
-***
-
-## Unfixed Bugs
-
-- The first bug that I will flag is the hero imgage cropping a bit too much of the image as sreen sizes increase. This will require more editing of the photo and possibly more styling with media queries for different screen sizes. It does take away from the overall aesthetics of the site, in particular on large desktop screens, but I feel not affecting its purpose, or user interface / experience.
-
-- Another issue with the site that needs attention is the main section of the landing / home page where there is 3 small paragraphs and two images giving a general outline of the company. The Layout here could also be improved, throughout changing screen sizes. As this was designed with the mobile device as it primary target, it works fine at smaller sizes. But as the screen gets bigger, the ratio of the text and images doesnt quite look right. I used flex box properties to control this section to give me as much responsiveness as possible, but it does need more work. Not affecting the users experience of the site or its overall style and theme. 
+- For all testing please refer to the [TESTING.md](TESTING.md)
 
 ***
 
