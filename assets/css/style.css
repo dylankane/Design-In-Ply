@@ -51,7 +51,7 @@ a {
 
 a:hover {
     color: black;
-    text-decoration: overline;
+    text-decoration: underline double;
 }
 
 .active {
