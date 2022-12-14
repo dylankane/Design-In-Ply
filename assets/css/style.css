@@ -15,7 +15,7 @@ html {
     --white: #f5f5f5;
     --pink: rgba(189, 128, 118, 0.8);
     --pink-solid: rgba(189, 128, 118, 1);
-    --dim-grey: rgba(109, 109, 100, 1);
+    --dim-grey: rgba(55, 55, 55, 1);
     --dark-green: rgb(66, 117, 99);
     --dim-grey-trans: rgba(109, 109, 100, 0.8);
 }
@@ -50,7 +50,7 @@ a {
 }
 
 a:hover {
-    color: black;
+    color: var(--white);
     text-decoration: underline;
 }
 
