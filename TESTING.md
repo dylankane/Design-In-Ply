@@ -20,6 +20,18 @@ Below are the links and screenshots of the results for each test.
 
 __Html__
 
+- [Link for index.html validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Findex.html)
+![w3 validator index.html](documentation/w3-validator-index.html.png)
+
+- [Link for gallery.html validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Fgallery.html)
+![w3 validator gallery.html](documentation/w3-validator-gallery.html.png)
+
+- [Link for about.html validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Fabout.html)
+![w3 validator about.html](documentation/w3-validator-about.html.png)
+
+- [Link for confirmation.html validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Fconfirmation.html)
+![w3 validator confirmation.html](documentation/w3-validator-confirmation.html.png)
+
 __CSS__
    
 
@@ -27,13 +39,77 @@ __CSS__
 
 ## Lighthouse Testing
 
-- The site has also been checked with "lighthouse testing". Returning a score of:    . Below is a screenshot of the results.
+- The site has also been tested through the lighthouse text in the chrome dev tools. Below is a screenshot of the results from each page.
+
+![lighthouse test on index.html image](documentation/lighthouse-index.html.png)
+
+![lighthouse test on gallery.html image](documentation/lighthouse-gallery.html.png)
+
+![lighthouse test on about.html image](documentation/lighthouse-about.html.png)
 
 ***
 
 ## Responsiveness
 
 - The project has also been tested across different screen sizes / devices, to show it's resposivness. It has performed well, below are screenshots at different screen sizes.
+
+
+### Mobile devices "Samsung galaxy s8"
+
+![landing page at mobile screen size](documentation/landing-page-mobile.png)
+
+![gallery page at mobile screen size](documentation/gallery-page-mobile.png)
+
+![contact section at mobile screen size](documentation/contact-mobile.png)
+
+
+### Tablet devices "ipad air"
+
+- Landing page on tablet in landscape mode
+
+![landing page on tablet in landsape mode](documentation/landing-page-tablet-landscape.png)
+
+
+- Landing page on tablet in portrait mode
+
+![landing page on tablet in portrait mode](documentation/landing-page%20tablet-portrait.png)
+
+
+- Gallery page on tablet in landscape mode
+
+![gallery page on tablet in landscape mode](documentation/gallery-page-tablet-landscape.png)
+
+
+- Contact section on tablet in portrait mode
+
+![Gallery page on tablet in landscape mode](documentation/contact-page-tablet-portrait.png)
+
+
+### Laptop devices
+
+
+- Landing page on laptop
+
+![landing page on laptop](documentation/landing-page-laptop.png)
+
+
+- Gallery page on laptop
+
+![gallery page on latop](documentation/gallery-page-laptop.png)
+
+
+- Contact section on laptop
+
+![contact section on laptop](documentation/contact-laptop.png)
+
+
+
+### Large monitor
+
+
+
+
+
 
 ***
 
@@ -42,9 +118,30 @@ __CSS__
 - There are no remaining bugs that I am aware of, coming from any testing. However there is a couple of issues I will point out below, that I have noticed due to its responsiveness
 
 
- - The first issue that I will flag is the hero imgage cropping a bit too much of the image as sreen sizes increase. This will require more editing of the photo and possibly more styling with media queries for different screen sizes. It does affect asthetics of the site, in particular on large desktop screens, but I feel not affecting its purpose, or user interface / experience.
+ - The first issue that I will flag is the hero imgage cropping a bit too much of the image as sreen size increase. It does affect asthetics of the site, in particular on large desktop screens, but I feel not affecting its purpose, or user interface / experience. But need to be fixed.
 
- - Another issue with the site that needs attention is the main section of the landing / home page where there is three small paragraphs and two images giving a general outline of the company. The Layout here could also be improved, throughout changing screen sizes. As this was designed with the mobile device as it primary target, it works fine at smaller sizes. But as the screen gets bigger, the ratio of the text and images doesnt quite work asthetically. I used flex box properties to control this section to give me as much responsiveness as possible, but it does need more work. Not affecting the users experience of the site or its overall style and theme. 
+ ### Hero image cropped correctly 
+
+![hero image](documentation/hero-image-bug-small.png)
+
+### Hero image over cropped
+
+ ![hero image cropped](documentation/hero-image-bug-desktop.png)
+
+
+ - Another issue with the site that needs attention is the main section of the landing / home page where there is three small paragraphs and two images giving a general outline of the company. The Layout here could also be improved, throughout changing screen sizes. It works well at smaller sizes, but as the screen gets bigger, the ratio of the text and images doesnt quite work asthetically. However again at full desktop size the ratio corrects itself. It does need more work. Not affecting the users experience of the site or its overall style and theme.
+
+### Home page content at small screen size looking well
+
+ ![home page at mobile size](documentation/home-page-small.png)
+
+ ### Home page content at desktop screen size looking well
+
+ ![home page at desktop size](documentation/home-page-large.png)
+
+ ### Home page content layout looking off at 860px
+
+ ![home page with problem](documentation/home-page-problem.png) 
 
 *** 
     
