@@ -64,7 +64,7 @@ p {
 }
 
 
- /* header*/
+ /* header */
 header {
     width: 100%;
     background-color: var(--pink);
@@ -76,7 +76,6 @@ header {
 #logo {
     padding: 15px;
     text-decoration: underline;
-
 }
 
 
@@ -92,7 +91,7 @@ header {
     padding:5px;
 }
 
-/* Hero Image*/
+/* Hero Image */
 
 #hero-image {
     height: 500px;
@@ -125,7 +124,7 @@ header {
     padding: 10px;
 }
 
-/* what & why section*/
+/* what & why section */
 
 #intro {
     text-align: center;
@@ -181,7 +180,7 @@ header {
 
  
  
-/* footer*/
+/* footer */
 
 #footer {
     background-color: var(--pink);
@@ -191,6 +190,13 @@ header {
 #footer-contact {
     margin-bottom: 20px;
 }
+
+#email-link:hover {
+    color: black;
+    text-decoration: underline double;
+    text-underline-offset: 4px;
+}
+
 #footer-contact > p {
     padding: 10px
 }
@@ -244,6 +250,8 @@ header {
     flex-grow: 1;
     object-fit: cover;
 }
+
+/* contact section */
 
 #contact-us-para {
     width: 75%;
@@ -377,6 +385,7 @@ iframe {
     padding-top: 10px;
   }
 
+/* media queries */
 
   @media screen and (min-width: 700px) 
 {
@@ -395,36 +404,36 @@ iframe {
 
 
 
-#main-section {
+    #main-section {
     margin: 50px;
-}
+    }
 
-#cover-text {
+    #cover-text {
     width: 260px;
     height: 110px;
     border-radius: 30px;
     bottom: 70px;
     right: 200px;
-}
+    }
 
-  #hero-image {
+    #hero-image {
     background: url(../images/hero-sideboard.jpg) no-repeat center center;
     background-size: cover;
     
-}
+    }
 
-#intro {
+    #intro {
     margin: 75px;
-}
+    }
 
-#circle-img-container {
+    #circle-img-container {
     flex-direction: row;
     justify-content: center;
-}
+    }
 
-form {
+    form {
     width: 40%;
-}
+    }
 }
 
 
