@@ -321,18 +321,27 @@ https://www.madeplyhand.co.uk/ (plywood-joinery-hand.webp)
 
 - To Build this project I used the following tools and technologies:
 
-  - Html
+  - Html: The basic building block of the site, used to write and structure the content of the website
 
-Css
+  - Css: The technology used to style the Html. By identifying certain elements the html, and apointing attributes to them, Css code can style the content in many ways, from layout to text colour, and everything in between.
 
-Gitpod
+  - GitHub: Is an online software development platform. Used for storing, tracking, and collaborating on software projects.
+    Creating a repisitory on github, then developing it in a workspace (git pod) into the finished project, storing it and eventually deploying it through github.
 
-Github
+  - Gitpod: This is a envoirment in which you can develop your project. A cloud based IDE. A workspace to develop and code, while launching live previews and consistently storing everything to github.
 
-Google Fonts
+  - GitHub pages: Used to deploy repositories from Git Hub 
 
-Font Joy
+  - Google Fonts: Library of fonts, which supplies a line of code to embed into your css file to apply them to your site.
 
-Font Awesome
+  
+ - Font Awesome: Like google fonts, but also for icons. That works in a similar way, supplying a line of code called a kit, 
+  added to each html file you want to use an icon. Then allows you to use their icons, added directly into the html where you want the icon to be.
 
- Chrome developer tools
+  - Chrome developer tools: A powerful tool, inside the chrome browser, allowing the user to inspect a site. Finding what code is doing what. Editing code, toggling attributes on and off, and much more. All without affecting the original code. Has many more functions including testing, like the lighthouse test and testing accesibility porperties. 
+
+
+  - Root variables: A system using css, that allowed me to define colours, that can be used across the whole project. Makes changing colours easier than changing each element individually
+
+   - Flex-Box: Css property used to control elements for better responsiveness, and easier to layout, than other options like float.
+
