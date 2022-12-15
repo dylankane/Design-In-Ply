@@ -7,7 +7,74 @@ Click to return back to the [README.md](README.md)
 
 ## Browser Compatibility
 - The Website has been tested, across a number of browsers, to make sure it is responding well in the most popular browsers.
-Included was Chrome, Firefox, and Safari.The site is responding well and as predicted across all.
+Included was Chrome, Firefox, Edge and Opera. The site is responding well and as predicted across all. The screenshots across the readme and testing files are taken in Chrome, as it was built in Chrome. Below are an example of different areas of the site in the other browsers in was tested in.
+
+
+### Images from Firefox
+
+![firefox](documentation/firefox1.jpeg)
+
+![firefox](documentation/firefox2.jpeg)
+
+![firefox](documentation/firefox3.jpeg)
+
+![firefox](documentation/firefox4.jpeg)
+
+![firefox](documentation/firefox5.jpeg)
+
+![firefox](documentation/firefox6.jpeg)
+
+![firefox](documentation/firefox7.jpeg)
+
+![firefox](documentation/firefox8.jpeg)
+
+![firefox](documentation/firefox9.jpeg)
+
+
+***
+
+
+- Images from Edge
+
+![edge](documentation/edge1.jpeg)
+
+![edge](documentation/edge2.png)
+
+![edge](documentation/edge3.jpeg)
+
+![edge](documentation/edge4.jpeg)
+
+![edge](documentation/edge5.jpeg)
+
+![edge](documentation/edge6.jpeg)
+
+![edge](documentation/edge7.jpeg)
+
+![edge](documentation/edge8.jpeg)
+
+![edge](documentation/edge9.jpeg)
+
+
+***
+
+- Images from Opera
+
+![opera](documentation/opera1.jpeg)
+
+![opera](documentation/opera2.jpeg)
+
+![opera](documentation/opera3.jpeg)
+
+![opera](documentation/opera4.jpeg)
+
+![opera](documentation/opera5.jpeg)
+
+![opera](documentation/opera6.jpeg)
+
+![opera](documentation/opera7.jpeg)
+
+
+
 
 ***
 
