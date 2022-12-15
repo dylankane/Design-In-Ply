@@ -34,7 +34,7 @@ Included was Chrome, Firefox, Edge and Opera. The site is responding well and as
 ***
 
 
-- Images from Edge
+### Images from Edge
 
 ![edge](documentation/edge1.jpeg)
 
@@ -57,7 +57,7 @@ Included was Chrome, Firefox, Edge and Opera. The site is responding well and as
 
 ***
 
-- Images from Opera
+### Images from Opera
 
 ![opera](documentation/opera1.jpeg)
 
