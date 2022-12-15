@@ -8,21 +8,49 @@ links, where they can see more information and examples of their work.
 
  It targets people interested in one off high quality pieces of furniture. Not meant to be a place to buy off the shelf products, but to encourage people to contact them directly to commision a piece. The Idea of the site is minimalist, and clean, giving enough information to intrigue interest.But without too much clutter, to confuse or limit what customers think the possibilities might be. Hoping the simple design will trigger the same feelings as the clean modern design of plywood funiture.
 
+***
+
 ![mockup image](documentation/responsive-mock-up.png) 
 
-***
-## UX
 
-- The
+***
+
+## UX/UI
+
+- The design of the website has user experience at its core, meant as a showcase for the work the company creates. Imagery    dottted throughout to intrigue the user and keep them on point, to what they are there for. 
+
+  It is meant to be easy to find the content, in very obvious and straight to the point sections. Although there is 4 nav links, there is only 3 pages. The user will end up on the contact form, if the about page has been clicked and scrolled through. With other reminders at different stages in the site to get in touch or visit their social media links, and contact info right at the top of the footer on each page, the message is clear, to contact the company directly. This is not an ecommerce site, but more of a showcase. It is aimed at people looking for high quality one-of bespoke pices of furniture. Not praying on impulse buys, but the customer who is looking to spend more money to get something made to their needs and well thought out.
+
+  The site is built to flow with ease, from basic information about the company to more detail about what they do, on to example of their work, more in depth information about the founder and his ethos.
+
+  The content is also easy to navigate. From links highlighting and underlining when hovered to current/active pages underlined.
+  when clicking on the contact page/section the browser slides down to the bottom of the about page, letting the user know where they are. 
+
+  If the user fills out the contact form, and submits, they will be sent to a confirmation page, this lets them know their message was sent. This page will then re-direct them to the home page after 10 seconds, pointed out to the user by a message on the page. This prevents the user having to interact with the back button on the browser window, but only interacting with the site.
+
+The social media links also only open in a new tab keeping the site tab open for them.
+
+The style of the site is meant to link to the style of the furniture the company make with clean lines and open spaces with subtle design traits, hopefully appealling to the users who are attracted to the modern plywood furniture design offered. 
+
+The small detail of the double underline on the logo when hovered is a homage to the exposed edges of plywood, with parrellel lines. 
 
 __Colour Scheme__
     
+    The colour scheme for the site was chosen as a way to keep the asthetis looking simlpe and clean but still being able to introduce some colour, and not have it all in white and black / grey. Small amount of colour was used, which allow the photos to do all the hard work, impressing users.
+
+    The colour scheme consisted of a background colour of  : #f5f5f5. An off white, to give contrast to the photos, but not be too stark like a brilliant white. Text is in a grey,  rgb(55, 55, 55,)  quite close to black but a bit softer.
+    The main accent of colour comes in the header and footer section. Both with a background of a dull pink colour rgba(189, 128, 118, 0.8). This becomes the main theme/colour of the site despite only being in two small areas of the site, and doesnt affect the photos which still sit on the white backgrond. The lower headings of the site are also picked out. These headings title the paragraphs throughout the site, they are coloured with a very complementary green. It is only a subtle contrast to the main text colour and not noticeable straight away, but i believe gives it a bit of class.
+
+    The colour scheme was implemented with root variable code in the top of the CSS file. This gave me the flexibility to change around and adjust the colours, without having to change them all at the element level throughout the CSS file.
+    Below is a code block of what I used in the css.
+
+
 ```css
  :root {
   --white: #f5f5f5;
   --pink: rgba(189, 128, 118, 0.8);
   --pink-solid: rgba(189, 128, 118, 1);
-  --dim-grey: rgba(109, 109, 100, 1);
+  --dim-grey: rgba(55, 55, 55, 1);
   --dark-green: rgb(66, 117, 99);
   --dim-grey-trans: rgba(109, 109, 100, 0.8);
 }
@@ -32,10 +60,19 @@ __Colour Scheme__
 
 __Typography__
 
-google fonts: raleway and poiret
- Font compasison website
+- The fonts chosen for the website , are "poiret one" for the headings and logo, and "raleway" for the body of all the text.
+  The back up was sans seriff, incase it is not supported by a particular browswer.
 
-font awsome : icons for social media
+  Chosen to be clear and stylish, with some beautiful details in the poiret one in particular, the font helps with the user expierience
+
+  These fonts come from google fonts, and I used FontJoy to compare and pair fonts to find two options that work well with each other.
+
+  They were imported in to the top of the CSS file, from Google Fonts, and then selected for their desired elements within the CSS.  
+
+  Icons are also used on the project. For links to the social media sites, I used an icon for each of these social media sites.
+  For this I used font-awsome, with a kit, where some code is supplied by font awsome, and added into each html file. 
+
+  This then allows me to add the icons that I pick from the font awsome library. simple and affective.
 
 ***
 
@@ -46,7 +83,7 @@ In this section I will outline and explain the different features of the site an
 
 __Logo__
 
-- The Logo, which is located on the header section of each page, is a simple one. The name of the company Design In Ply, with a nice font "Poiret One" and an underline, text decoration. It is located to the far left of the header and is placed in the same location on each page, and at all screen sizes, keeping the site easy to navigate. It only moves by a few pixels right and down as the page expands above 700px wide, to keep with the open asthetics of the overall site. The logo is a hperlink to the home/landing page, clickable from anypage. As the user hovers over the logo or clicks the underline only changes to a black colour from the dim grey, it is coloured with. This underline highlight with hover was not meant to happen when I applied the pseudo hover to the logo, but it gave it some style class that I decided not to rectify.
+- The Logo, which is located on the header section of each page, is a simple one. The name of the company Design In Ply, with a nice font "Poiret One" an underline, text decoration. It is located to the far left of the header and is placed in the same location on each page, and at all screen sizes, keeping the site easy to navigate. It only moves by a few pixels right and down as the page expands above 700px wide, to keep with the open asthetics of the overall site. The logo is a hperlink to the home/landing page, clickable from anypage. As the user hovers over the logo or clicks the underline doubles, showing a little take on the lines found in plywood edges. The colour also changes to black, a subtle change to show interation with the logo
 
 ![logo image](documentation/logo-image.png)
 
@@ -54,6 +91,7 @@ __Logo__
 
 
 - The navigation bar, is located to the right of the header section. Containing 4 links to 3 pages. The "Home" links to the home/landing page, the projects links to a gellery of previous projects, the "About" links to the top of an about/contact page, where there is some information about the foundation and ethos of the company, and finally the "contact" links to the lower half of the about/contact page, where there is contact info along with a contact form, and live iframe of the location on google maps. The nav bar is styled with the other font used on the site "raleway". The whole word of the link higlights in black when hovered over, and and an underline appears. The colour of the text when not hovered is also in the dim grey used widely throughout the site. like the logo the nav bar links are located in the same position on all pages and on all screen sizes with some extra spacing between them on larger screen sizes. Again keeping the site intuitive. The nav bar does come closer to the left side and slightly under the logo on very small screen sizes, But I feel not cluttering the header.
+
 
 ![nav bar image](documentation/navigation-image.png)
 
@@ -123,7 +161,6 @@ The head of this page has code which redirects the user back to the home page wi
 
 ![confirmation page image](documentation/confirmaton-page.png)
 
-__Hover__
 
 __Favicon__
 
@@ -278,3 +315,24 @@ https://www.madeplyhand.co.uk/bespoke-plywood-furniture/ (music-center.jpg)
 https://www.dreamstime.com/photos-images/artisan-furniture-designer.html (furniture-workshop-image.jpg)
 
 https://www.madeplyhand.co.uk/ (plywood-joinery-hand.webp)
+
+
+## Technologies Used
+
+- To Build this project I used the following tools and technologies:
+
+  - Html
+
+Css
+
+Gitpod
+
+Github
+
+Google Fonts
+
+Font Joy
+
+Font Awesome
+
+ Chrome developer tools
