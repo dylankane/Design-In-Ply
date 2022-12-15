@@ -248,10 +248,19 @@ https://stackoverflow.com/questions/17687328/getting-a-link-to-go-to-a-specific-
 
 https://www.w3schools.com/css/css3_variables.asp
 
-- 10s redirect
-Tim
+  - I used a 10 second re direct from the confirmation page after sending contact form. Keeping the user from having to interact with the back button. Using a bit of code in the heaad of the confirmation page.
+  ```html
+  <meta http-equiv="refresh" content="10; url=index.html">
+  ```
+  I got some great specific help with this from my mentor in code institute, Tim Nelson
 
-mailto
+  - I also got some great help from Tim Nelson, on getting the contact section to scroll / slide into view when clicking on the contact link with the CSS 
+
+  ```css
+  html {
+    scroll-behavior: smooth;
+  }
+  ```
 
 ***
 
