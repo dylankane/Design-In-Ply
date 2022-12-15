@@ -49,10 +49,6 @@ a {
     color: var(--dim-grey)
 }
 
-a:hover {
-    color: black;
-    text-decoration: underline double;
-}
 
 .active {
     text-decoration: underline;
@@ -79,6 +75,15 @@ header {
 }
 
 
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.logo-link:hover {
+    text-decoration: underline double;
+}
+
 #nav-bar {
     text-align: right;
     margin-top: 10px;
@@ -89,6 +94,10 @@ header {
 #nav-list > li {
     display: inline;
     padding:5px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
 }
 
 /* Hero Image */
@@ -220,7 +229,7 @@ header {
  #about-paragraph {
         width: 75%;
         padding:75px 0px;
-        margin: 25px auto;
+        margin: 0px auto;
         text-align: center;
  }
 
@@ -330,7 +339,7 @@ iframe {
     border: solid 2px var(--dark-green);
 }
 
-/*confirmation page*/
+/* confirmation page */
 
 #confirmation-div {
     display: flex;
@@ -346,10 +355,10 @@ iframe {
 }
 
 
-/* gallery*/
+/* gallery */
 
 .title-projects {
-    margin: 100px;
+    margin: 75px;
     text-align: center;
     text-decoration: underline;
 }
