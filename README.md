@@ -1,12 +1,10 @@
 
 # Design In Ply
 
-Design In Ply is a website for a company based in Co. Dublin. They design and make bespoke plywood furniture
-for the domestic and commercial sector. This website is to help possible customers find their business, see examples 
-of their work, and get a feeling for the ethos of the company.It will also allow people to see their social media
-links, where they can see more information and examples of their work.
+Design In Ply is a website for a company based in Co. Dublin. They design and make bespoke plywood furniture for the domestic and commercial sector. This website is to help customers find their business, see examples 
+of their work, and get a feeling for the ethos of the company.It will also allow people to connect to their social media links, where they can see more information and examples of their work.
 
- It targets people interested in one off high quality pieces of furniture. Not meant to be a place to buy off the shelf products, but to encourage people to contact them directly to commision a piece. The Idea of the site is minimalist, and clean, giving enough information to intrigue interest.But without too much clutter, to confuse or limit what customers think the possibilities might be. Hoping the simple design will trigger the same feelings as the clean modern design of plywood funiture.
+ It targets people interested in one off high quality pieces of furniture. Not meant to be a place to buy off the shelf products, but to encourage people to contact them directly to commision a piece. The idea of the site is minimalist, and clean, giving enough information to intrigue interest.But without too much clutter, to confuse or limit what customers think the possibilities might be. Hoping the simple design will trigger the same feelings as the clean modern design of plywood funiture.
 
 ***
 
@@ -17,31 +15,39 @@ links, where they can see more information and examples of their work.
 
 ## UX/UI
 
-- The design of the website has user experience at its core, meant as a showcase for the work the company creates. Imagery    dottted throughout to intrigue the user and keep them on point, to what they are there for. 
+- The design of the website has user experience at its core, meant as a showcase for the work the company creates. Imagery dottted throughout to intrigue the user and keep them on point, to what they are there for. 
 
-  It is meant to be easy to find the content, in very obvious and straight to the point sections. Although there is 4 nav links, there is only 3 pages. The user will end up on the contact form, if the about page has been clicked and scrolled through. With other reminders at different stages in the site to get in touch or visit their social media links, and contact info right at the top of the footer on each page, the message is clear, to contact the company directly. This is not an ecommerce site, but more of a showcase. It is aimed at people looking for high quality one-of bespoke pices of furniture. Not praying on impulse buys, but the customer who is looking to spend more money to get something made to their needs and well thought out.
+  - It is meant to be easy to find the content, in very obvious and straight to the point sections. Although there is 4 nav links, there is only 3 pages. The user will end up on the contact form, if the about page has been clicked and scrolled through. Throughout the site there are multiple reminders, to get in touch or visit their social media links, and their contact info is right at the top of the footer on each page, the message is clear, to contact the company directly. This is not an ecommerce site, but more of a showcase. It is aimed at people looking for high quality one-of bespoke pices of furniture. Not praying on impulse buys, but the consumer who is looking to spend a bit more money to get something unique and made to their needs.
 
-  The site is built to flow with ease, from basic information about the company to more detail about what they do, on to example of their work, more in depth information about the founder and his ethos.
+  - The site is built to flow with ease from, some basic information about the company, to more detail about what they do, on to examples of their work, and more in depth information about the founder and his ethos.
 
-  The content is also easy to navigate. From links highlighting and underlining when hovered to current/active pages underlined.
-  when clicking on the contact page/section the browser slides down to the bottom of the about page, letting the user know where they are. 
+  - The content is also easy to navigate. From links highlighting and underlining when hovered to current/active pages underlined.
+  When clicking on the contact page/section the browser slides down to the bottom of the about page, letting the user know where they are. 
 
-  If the user fills out the contact form, and submits, they will be sent to a confirmation page, this lets them know their message was sent. This page will then re-direct them to the home page after 10 seconds, pointed out to the user by a message on the page. This prevents the user having to interact with the back button on the browser window, but only interacting with the site.
+  - If the user fills out the contact form, and submits, they will be sent to a confirmation page, this lets them know their message was sent. This page will then re-direct them to the home page after 10 seconds, pointed out to the user by a message on the page. This prevents the user having to interact with the back button on the browser window, but only interacting with the site.
 
-The social media links also only open in a new tab keeping the site tab open for them.
+  - The social media links also only open in a new tab keeping the site tab open for them.
 
-The style of the site is meant to link to the style of the furniture the company make with clean lines and open spaces with subtle design traits, hopefully appealling to the users who are attracted to the modern plywood furniture design offered. 
+  - The style of the site is meant to link to the style of the furniture the company make with clean lines and open spaces with subtle design traits, hopefully appealling to the users who are attracted to the modern plywood furniture design offered. 
 
-The small detail of the double underline on the logo when hovered is a homage to the exposed edges of plywood, with parrellel lines. 
+  - The small detail of the double underline on the logo when hovered is a homage to the exposed edges of plywood, with parrellel lines. 
 
 __Colour Scheme__
     
-    The colour scheme for the site was chosen as a way to keep the asthetis looking simlpe and clean but still being able to introduce some colour, and not have it all in white and black / grey. Small amount of colour was used, which allow the photos to do all the hard work, impressing users.
+  - The colour scheme for the site was chosen as a way to keep the asthetics looking simlpe and clean but still being able to introduce some colour, and not have it all in white and black / grey. Small amount of colour was used, which allow the photos to do all the hard work, impressing users.
 
-    The colour scheme consisted of a background colour of  : #f5f5f5. An off white, to give contrast to the photos, but not be too stark like a brilliant white. Text is in a grey,  rgb(55, 55, 55,)  quite close to black but a bit softer.
-    The main accent of colour comes in the header and footer section. Both with a background of a dull pink colour rgba(189, 128, 118, 0.8). This becomes the main theme/colour of the site despite only being in two small areas of the site, and doesnt affect the photos which still sit on the white backgrond. The lower headings of the site are also picked out. These headings title the paragraphs throughout the site, they are coloured with a very complementary green. It is only a subtle contrast to the main text colour and not noticeable straight away, but i believe gives it a bit of class.
+    - The colour scheme consists of a background colour of  : #f5f5f5. 
+    An off white, to give contrast to the photos, but not be too stark like a brilliant white.
+    
+    - Text is in a grey,  rgb(55, 55, 55,)  quite close to black but a bit softer.
 
-    The colour scheme was implemented with root variable code in the top of the CSS file. This gave me the flexibility to change around and adjust the colours, without having to change them all at the element level throughout the CSS file.
+
+    - The main accent of colour comes in the header and footer section. Both with a background of a dull pink colour rgba(189, 128, 118, 0.8). This becomes the main theme/colour of the site despite only being in two small areas of the site, and doesnt affect the photos which still sit on the white backgrond. 
+    
+    
+    - The lower headings of the site are also picked out. These headings title the paragraphs throughout the site, they are coloured with a very complementary green. It is only a subtle contrast to the main text colour and not noticeable straight away, but I believe gives it a bit of class.
+
+    - The colour scheme was implemented with root variable code in the top of the CSS file. This gave me the flexibility to change around and adjust the colours, without having to change them all at the element level throughout the CSS file.
     Below is a code block of what I used in the css.
 
 
