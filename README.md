@@ -32,6 +32,7 @@ of their work, and get a feeling for the ethos of the company.It will also allow
 
   - The small detail of the double underline on the logo when hovered is a homage to the exposed edges of plywood, with parrellel lines. 
 
+
 __Colour Scheme__
     
   - The colour scheme for the site was chosen as a way to keep the asthetics looking simlpe and clean but still being able to introduce some colour, and not have it all in white and black / grey. Small amount of colour was used, which allow the photos to do all the hard work, impressing users.
@@ -63,22 +64,33 @@ __Colour Scheme__
 ```
 
 
-
 __Typography__
 
-- The fonts chosen for the website , are "poiret one" for the headings and logo, and "raleway" for the body of all the text.
-  The back up was sans seriff, incase it is not supported by a particular browswer.
+- The fonts chosen for the website, are "poiret one" for the headings and  logo, and "raleway" for the body of all the text. The back up is sans seriff, incase it is not supported by a particular browswer.
 
-  Chosen to be clear and stylish, with some beautiful details in the poiret one in particular, the font helps with the user expierience
+  - Chosen to be clear and stylish, with some beautiful details in the poiret one in particular, the font helps with the user expierience
 
-  These fonts come from google fonts, and I used FontJoy to compare and pair fonts to find two options that work well with each other.
+  - These fonts come from google fonts. I used FontJoy to compare and pair fonts to find two options that work well with each other.
 
-  They were imported in to the top of the CSS file, from Google Fonts, and then selected for their desired elements within the CSS.  
+  - They were imported in to the top of the CSS file, from Google Fonts, and then selected for their desired elements within the CSS.  
 
-  Icons are also used on the project. For links to the social media sites, I used an icon for each of these social media sites.
+  - Icons are also used in the project. For links to the social media sites, I used an icon for each of these social media sites.
   For this I used font-awsome, with a kit, where some code is supplied by font awsome, and added into each html file. 
 
-  This then allows me to add the icons that I pick from the font awsome library. simple and affective.
+  - This then allows me to add the icons that I pick from the font awsome library. Simple and affective.
+
+
+
+__Favicon__
+
+- A favicon has also been used in this project. This is a small icon that shows up on the left hand corner of the tab for a site, in a browser.
+It allows the user to differenciate which site is on which tab, when there is multiple tabs open in a window of a browser.
+
+  - This is done by adding a link inside the head of each html file, linking to a small image from the images folder.
+
+  - This can really help with user experience, allowing for easy navigation back to the site if the tab has been left open.
+
+
 
 ***
 
@@ -96,7 +108,7 @@ __Logo__
  __Navigation Bar__
 
 
-- The navigation bar, is located to the right of the header section. Containing 4 links to 3 pages. The "Home" links to the home/landing page, the projects links to a gellery of previous projects, the "About" links to the top of an about/contact page, where there is some information about the foundation and ethos of the company, and finally the "contact" links to the lower half of the about/contact page, where there is contact info along with a contact form, and live iframe of the location on google maps. The nav bar is styled with the other font used on the site "raleway". The whole word of the link higlights in black when hovered over, and and an underline appears. The colour of the text when not hovered is also in the dim grey used widely throughout the site. like the logo the nav bar links are located in the same position on all pages and on all screen sizes with some extra spacing between them on larger screen sizes. Again keeping the site intuitive. The nav bar does come closer to the left side and slightly under the logo on very small screen sizes, But I feel not cluttering the header.
+- The navigation bar, is located to the right of the header section. Containing 4 links to 3 pages. The "Home" links to the home/landing page, the "projects" links to a gellery of previous projects, the "About" links to the top of an about/contact page, where there is some information about the foundation and ethos of the company, and finally the "contact" links to the lower half of the about/contact page, where there is contact info along with a contact form, and live iframe of the location on google maps. The nav bar is styled with the other font used on the site "raleway". The whole word of the link higlights in black when hovered over, and and an underline appears. The colour of the text when not hovered is also in the dim grey used widely throughout the site. like the logo the nav bar links are located in the same position on all pages and on all screen sizes with some extra spacing between them on larger screen sizes. Again keeping the site intuitive. The nav bar does come closer to the left side and slightly under the logo on very small screen sizes, But I feel not cluttering the header.
 
 
 ![nav bar image](documentation/navigation-image.png)
@@ -168,7 +180,6 @@ The head of this page has code which redirects the user back to the home page wi
 ![confirmation page image](documentation/confirmaton-page.png)
 
 
-__Favicon__
 
 ***
 
@@ -232,7 +243,7 @@ https://blog.logrocket.com/responsive-image-gallery-css-flexbox/
 
 https://www.youtube.com/watch?v=fYq5PXgSsbE&t=322s
 
-***
+
 
 - When fixing the header to the top of the viewport, I found an article helping me to position it where I wanted it. After coming across some issues this helped me correct it.
 
@@ -255,9 +266,11 @@ https://stackoverflow.com/questions/17687328/getting-a-link-to-go-to-a-specific-
 https://www.w3schools.com/css/css3_variables.asp
 
   - I used a 10 second re direct from the confirmation page after sending contact form. Keeping the user from having to interact with the back button. Using a bit of code in the heaad of the confirmation page.
+
   ```html
   <meta http-equiv="refresh" content="10; url=index.html">
   ```
+
   I got some great specific help with this from my mentor in code institute, Tim Nelson
 
   - I also got some great help from Tim Nelson, on getting the contact section to scroll / slide into view when clicking on the contact link with the CSS 
@@ -267,6 +280,9 @@ https://www.w3schools.com/css/css3_variables.asp
     scroll-behavior: smooth;
   }
   ```
+
+  Tim also helped me with code for the favicon,
+
 
 ***
 
@@ -341,7 +357,7 @@ https://www.madeplyhand.co.uk/ (plywood-joinery-hand.webp)
   - Css: The technology used to style the Html. By identifying certain elements the html, and apointing attributes to them, Css code can style the content in many ways, from layout to text colour, and everything in between.
 
   - GitHub: Is an online software development platform. Used for storing, tracking, and collaborating on software projects.
-    Creating a repisitory on github, then developing it in a workspace (git pod) into the finished project, storing it and eventually deploying it through github.
+  Creating a repisitory on github, then developing it in a workspace (git pod) into the finished project, storing it and eventually deploying it through github.
 
   - Gitpod: This is a envoirment in which you can develop your project. A cloud based IDE. A workspace to develop and code, while launching live previews and consistently storing everything to github.
 
@@ -350,7 +366,7 @@ https://www.madeplyhand.co.uk/ (plywood-joinery-hand.webp)
   - Google Fonts: Library of fonts, which supplies a line of code to embed into your css file to apply them to your site.
 
   
- - Font Awesome: Like google fonts, but also for icons. That works in a similar way, supplying a line of code called a kit, 
+  - Font Awesome: Like google fonts, but also for icons. That works in a similar way, supplying a line of code called a kit, 
   added to each html file you want to use an icon. Then allows you to use their icons, added directly into the html where you want the icon to be.
 
   - Chrome developer tools: A powerful tool, inside the chrome browser, allowing the user to inspect a site. Finding what code is doing what. Editing code, toggling attributes on and off, and much more. All without affecting the original code. Has many more functions including testing, like the lighthouse test and testing accesibility porperties. 
@@ -358,5 +374,11 @@ https://www.madeplyhand.co.uk/ (plywood-joinery-hand.webp)
 
   - Root variables: A system using css, that allowed me to define colours, that can be used across the whole project. Makes changing colours easier than changing each element individually
 
-   - Flex-Box: Css property used to control elements for better responsiveness, and easier to layout, than other options like float.
+  - Flex-Box: Css property used to control elements for better responsiveness, and easier to layout, than other options like float.
 
+
+## Acknowledgements
+
+    I would just like to acknowledge and thank, Tim Nelson, code intitute mentor on this project for his help and encouragement while working on this project, a wealth of knowledge.
+
+    Also the code intitute slack channel where there was many previously asked questions and answers that helped me figure out many issues. And a great community of people ready to help.
