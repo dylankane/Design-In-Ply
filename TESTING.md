@@ -88,19 +88,27 @@ Below are the links and screenshots of the results for each test.
 __Html__
 
 - [Link for index.html validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Findex.html)
+
 ![w3 validator index.html](documentation/w3-validator-index.html.png)
 
 - [Link for gallery.html validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Fgallery.html)
+
 ![w3 validator gallery.html](documentation/w3-validator-gallery.html.png)
 
 - [Link for about.html validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Fabout.html)
+
 ![w3 validator about.html](documentation/w3-validator-about.html.png)
 
 - [Link for confirmation.html validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply%2Fconfirmation.html)
+
 ![w3 validator confirmation.html](documentation/w3-validator-confirmation.html.png)
 
 __CSS__
    
+- [Link for css validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdylankane.github.io%2FDesign-In-Ply&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)  
+
+![w3c css validator](documentation/w3c-css-validation.png)
+
 
 ***
 
