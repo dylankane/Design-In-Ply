@@ -379,6 +379,6 @@ https://www.madeplyhand.co.uk/ (plywood-joinery-hand.webp)
 
 ## Acknowledgements
 
-    I would just like to acknowledge and thank, Tim Nelson, code intitute mentor on this project for his help and encouragement while working on this project, a wealth of knowledge.
+  I would just like to acknowledge and thank, Tim Nelson, code intitute mentor on this project for his help and encouragement while working on this project, a wealth of knowledge.
 
-    Also the code intitute slack channel where there was many previously asked questions and answers that helped me figure out many issues. And a great community of people ready to help.
+  Also the code intitute slack channel where there was many previously asked questions and answers that helped me figure out many issues. And a great community of people ready to help.
